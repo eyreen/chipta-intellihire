@@ -30,11 +30,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  excel: ^2.0.3
+  path_provider: ^2.1.1
+  fl_chart: ^0.63.0
+  syncfusion_flutter_charts: ^22.2.11
 
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/JumlahKekosonganBaruProfesional.xlsx
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  # cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -51,12 +59,12 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter:
+# flutter:
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
-  uses-material-design: true
+#   # The following line ensures that the Material Icons font is
+#   # included with your application, so that you can use the icons in
+#   # the material Icons class.
+#   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -88,3 +96,5 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+

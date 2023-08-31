@@ -19,19 +19,19 @@ class LandingPage extends StatelessWidget {
         elevation: 0,
       ),
       body: Container(
-        // decoration: BoxDecoration(
-        //   gradient: LinearGradient(
-        //     colors: [Color(0xFFff6bd6), Color(0xFF9c50e6)],
-        //     begin: Alignment.topRight,
-        //     end: Alignment.bottomLeft,
-        //   ),
-        //   // image: DecorationImage(
-        //   //   image: NetworkImage(
-        //   //     'https://image.pollinations.ai/prompt/Immerse%20your%20main%20page%20in%20the%20cyberpunk%20realm%20with%20this%204K%20Ultra%20HD%20mobile%20app-sized%20background.%20The%20scene%20portrays%20a%20human%20resource%20manager%20gazing%20at%20a%20computer,%20diligently%20working%20to%20recruit%20new%20talent.%20The%20backdrop%20is%20infused%20with%20captivating%20pink%20and%20purple%20hues,%20set%20against%20a%20futuristic%20cityscape%20at%20night,%20with%20AI%20seamlessly%20integrated%20into%20the%20digital%20tapestry',
-        //   //   ),
-        //   //   fit: BoxFit.cover,
-        //   // ),
-        // ),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Color(0xFFff6bd6), Color(0xFF9c50e6)],
+            begin: Alignment.topRight,
+            end: Alignment.bottomLeft,
+          ),
+          image: DecorationImage(
+            image: NetworkImage(
+              'https://c4.wallpaperflare.com/wallpaper/724/774/328/windows-11-abstract-purple-dark-background-hd-wallpaper-preview.jpg',
+            ),
+            fit: BoxFit.cover,
+          ),
+        ),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,

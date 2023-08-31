@@ -42,6 +42,30 @@ class ProfileManagementApplicantScreen extends StatelessWidget {
             ),
             SizedBox(height: 30),
             _buildListTile(
+              icon: Icons.document_scanner,
+              title: 'Upload Resume',
+              subtitle: 'Extract vital information using AI resume parsing.',
+              onTap: () {
+                // Navigate to upload resume editing page
+              },
+            ),
+            _buildListTile(
+              icon: Icons.people,
+              title: 'Personality Copier',
+              subtitle: 'Create 3d avatar imitating own personality for assessment purpose.',
+              onTap: () {
+                // Navigate to contact details editing page
+              },
+            ),
+            _buildListTile(
+              icon: Icons.screen_rotation_alt_rounded,
+              title: 'Social Media Integration',
+              subtitle: 'Link your social media to perform behavioural analysis.',
+              onTap: () {
+                // Navigate to contact details editing page
+              },
+            ),
+            _buildListTile(
               icon: Icons.person,
               title: 'Personal Information',
               subtitle: 'Update your name, profile picture, and other personal details.',
