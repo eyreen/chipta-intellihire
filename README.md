@@ -20,3 +20,8 @@ To find the .apk file, follow these steps:
 1. Navigate to the following directory:
 "build\app\outputs\flutter-apk\app-release.apk"
 2. The .apk file is the IntelliHire app. You can install it on an Android device by transferring it to the device and opening it with the file manager.
+
+Find screenshot of the application below:
+
+1. Applicant - https://drive.google.com/file/d/1bVCViPDtvqBCF8r1nLufzBghEULYk1kA/view?usp=sharing
+2. HR - https://drive.google.com/file/d/1s3xiiGdGINnUiBlgcLJLv_f_nZUL20A2/view?usp=drive_link
